@@ -1,0 +1,48 @@
+:root {
+    --dark: #333A42;
+    --medium: #485057;
+    --beige: #F0EBE8;
+    --blue: #3D5B75;
+    --white: #FFFFFF:
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--beige);
+}
+
+body {
+    margin: 30px;
+    padding: 0;
+    background-color: var(--dark);
+}
+
+form input {
+    color: var(--dark);
+    padding: 5px;
+    font-size: 15px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.results {
+    margin: 10px;
+}
+
+.results-card {
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid var(--beige);
+}
